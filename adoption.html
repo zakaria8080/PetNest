@@ -5,14 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adoption.css">
 </head>
 
 <body>
     <!--header-->
+    <header class="header">
+        <div class="PetNet-home">
+            <img src="img/logo_2.png" alt="PetNet" class="petnet-img">
+            <a href="#acceuil" class="link-PetNet">
+                PetNet
+            </a>
+        </div>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav">
+            <div class="a-nav">
+                <ul class="ul-nav">
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="catalogue.html">Boutique</a></li>
+                    <li><a href="adoption.html" class="active-link">Adoption</a></li>
+                    <li><a href="serviceContact.html">Services</a></li>
+                    <li><a href="serviceContact.html">Contact</a></li>
+                </ul>
+                <div class="button">
+                    <a class="button-a">Prendre RDV</a>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
 
     <!--main-->
     <main>
-        <section>
+        <section id="hero-adoption">
             <div>
                 <div>
                     <h1>Adopter,c'est un engagement pour la vie</h1>
@@ -27,7 +57,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="animaux">
             <img src="" alt="">
             <div>
                 <h1>Rocky,4 ans</h1>
@@ -37,7 +67,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="demande-adoption">
             <div>
                 <h3>FORMULAIRE</h3>
                 <h1>Demande d'adoption</h1>
@@ -96,6 +126,16 @@
 
     <!--footer-->
 
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.ul-nav');
+        const button = document.querySelector('.a-nav .button');
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('ouvert');
+            button.classList.toggle('ouvert');
+            burger.classList.toggle('actif');
+        });
+    </script>
 </body>
 
 </html>
