@@ -17,21 +17,40 @@
                 PetNet
             </a>
         </div>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <nav class="nav">
             <div class="a-nav">
                 <ul class="ul-nav">
                     <li><a href="index.html" class="active-link">Acceuil</a></li>
                     <li><a href="catalogue.html">Boutique</a></li>
-                    <li><a href="details.html">Adoption</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
                     <li><a href="serviceContact.html">Services</a></li>
                     <li><a href="serviceContact.html">Contact</a></li>
                 </ul>
+                <div class="button">
+                    <a class="button-a">Prendre RDV</a>
+                </div>
             </div>
         </nav>
-        <div class="button">
-            <a class="button-a">Prendre RDV</a>
-        </div>
+        
     </header>
+
+
+
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.ul-nav');
+        const button = document.querySelector('.a-nav .button');
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('ouvert');
+            button.classList.toggle('ouvert');
+            burger.classList.toggle('actif');
+        });
+    </script>
 </body>
 
 </html>
