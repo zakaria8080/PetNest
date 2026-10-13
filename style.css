@@ -1,0 +1,300 @@
+/* les parameter de website */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* zakaria part header */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.petnet-img {
+    width: 45px;
+    position: relative;
+    bottom: 5px;
+}
+
+.link-PetNet {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 13px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    color: black;
+}
+
+.ul-nav .active-link {
+    color: #0D9488;
+    font-weight: 600;
+    border-bottom-color: #0D9488;
+}
+
+/* edit by hafsa */
+/*burger menu*/
+.burger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #1F2937;
+    border-radius: 3px;
+    transition: 0.3s
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer
+}
+
+.nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000
+}
+
+.a-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav .ul-nav {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 16px;
+}
+
+.nav .ul-nav.ouvert {
+    display: flex;
+}
+
+.nav .ul-nav li {
+    width: 100%;
+}
+
+.nav .ul-nav a {
+    display: block;
+    padding: 14px 8px;
+    font-size: 14px;
+}
+
+.nav .button {
+    display: none;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin: 10px 16px;
+    color: #FFFFFF;
+    background-color: #0D9488;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.nav .button.ouvert {
+    display: flex;
+    height: 20%;
+}
+
+.burger.actif span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.burger.actif span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.actif span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+/* JAWAD  */
+.pied-de-page {
+
+    background-color: #1a1a1a;
+
+    color: #f5f5f5;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: 50px 20px 20px 20px;
+
+}
+
+
+
+.conteneur {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+.media i {
+    background-color: rgb(42, 39, 39);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.media i:hover {
+    background-color: rgb(60, 56, 56);
+}
+
+
+#disc {
+
+    font-size: small;
+
+}
+
+
+
+#logo1 {
+
+    width: 40px;
+
+}
+
+p {
+    padding: 5px;
+}
+
+
+/* taha  */
+.banner {
+    background: #CCFBF1;
+    display: flex;
+    flex-direction: column;
+    align-items: 20px ;
+    justify-content: center;
+    text-align: 20px;
+    padding: 25px 12px;
+  ;
+    
+}
+
+.carte {
+  width: 80%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin: 50px;
+}
+
+.carte img {
+    margin: 0px;
+  width: 100%;
+  display: block;
+}
+
+.carte > div {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carte h3 {
+  width: 100%;
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+}
+
+.carte .duree {
+ 
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+.carte .ajoute {
+  background: #0F766E;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+ 
+}
+.filter_buttons{
+align-items: center;
+gap: 15px;
+
+}
+.filter {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    
+    padding: 20px;
+    margin: 50px auto;
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+        cursor: pointer;
+    border-radius: 20px;
+}
