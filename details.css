@@ -46,12 +46,17 @@
     bottom: 7;
 }
 #Ajouter{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-style: solid;
     border-radius: 11px;
     padding: 10px;
     margin-left: 120px;
-    background-color: rgb(13, 148, 136);
-    color: azure;
+    background-color:#0F766E;
+    border-color: #0F766E;
+    color: #FFFFFF;
+   
 }
 #text{
     font-family: Bold ;
@@ -66,4 +71,73 @@
     text-align: center;
     margin-left: 10px;
     
+}
+.commit1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    margin-left: 40px;
+}
+.commit2{
+    margin-top: 10px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.section{
+    background-color: #E7E5E4;
+}
+.addcommit{ 
+    margin-top: 20px;  
+    border-style: solid;
+    border-radius: 12px;
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    padding: 10px;
+    
+}
+#input1{
+    border-style:solid ;
+    border-radius: 6px;
+    border-color:black ;
+    
+}
+#commentaire{
+    border-radius:solid ;
+    border-radius: 6px;
+    border-color: black;
+}
+#monavis{
+    width: 250px;
+    height: 48px;
+    border-radius: 12px;
+    border-color: #0F766E;
+    color: #FFFFFF;
+    background-color: #0F766E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.star{
+    font-size: medium;
+}
+#TTC{
+    font-size: 10px;
+    margin-left: 60px;
+
 }
