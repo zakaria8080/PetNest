@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="img/logo_2.png">
+    <title>PetNest | Adoption</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="adoption.css">
-</head>
+<link rel="stylesheet" href="adoption.css"></head>
 
 <body>
     <!--header-->
@@ -44,87 +44,78 @@
     <main>
         <section id="hero-adoption">
             <div>
-                <div>
-                    <h1>Adopter,c'est un engagement pour la vie</h1>
-                    <p>Tous nos animaux sont vaccinés, identifiés et suivis par un vétérinaire. <br>
-                        Notre équipe vous accompagne avant et après l'adoption.</p>
-                </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+                <h1>Adopter,c'est un engagement pour la vie</h1>
+                <p>Tous nos animaux sont vaccinés, identifiés et suivis par un vétérinaire. <br>
+                    Notre équipe vous accompagne avant et après l'adoption.</p>
             </div>
-        </section>
-
-        <section id="animaux">
-            <img src="" alt="">
             <div>
-                <h1>Rocky,4 ans</h1>
-                <h2>Son histoire</h2>
-                <p>Rocky a été confié au refuge après le déménagement de sa famille. Très joueur, il adore les longues balades et apprend vite les ordes de base.</p>
-                <button>Demander à Adopter Rocky</button>
+            <ul class="valeurs">
+                <li class="valeur">
+                    <span class="info">48</span>
+                    <span>animaux à adopter</span>
+                </li>
+                <li class="valeur">
+                    <span class="info">312</span>
+                    <span>adoptions en 2025</span>
+                </li>
+                <li class="valeur">
+                    <span class="info">100%</span>
+                    <span>vaccinés et identifiés</span>
+                </li>
+            </ul>
             </div>
-        </section>
-
-        <section id="demande-adoption">
-            <div>
-                <h3>FORMULAIRE</h3>
-                <h1>Demande d'adoption</h1>
-                <p>Notre équipe vous recontacte sous 48 h pour organiser une rencontre avec l'animal. Les champs marrqués * sont obligatoires.</p>
-            </div>
-            <form action="">
-                <div>
-                    <div>
-                        <div>
-                            <label for="name">Nom complet *</label>
-                            <input type="text" name="name" id="name" placeholder="Ex. Sara Benali">
-                        </div>
-                        <div>
-                            <label for="mail">Adress e-mail *</label>
-                            <input type="email" name="mail" id="mail" placeholder="vous@example.com">
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="tel">Téléphone *</label>
-                            <input type="tel" name="tel" id="tel" placeholder="Ex. 0612345678">
-                        </div>
-                        <div>
-                            <label for="animalCh">Animal choisi</label>
-                            <select name="animalCh" id="animalCh">
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <label for="typeLogement">Type de logement</label>
-                        <select name="typeLogement" id="typeLogement">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="message">Votre message</label>
-                        <textarea name="message" id="message" placeholder="Pariez-nous de votre foyer et de votre rythme de vie..."></textarea>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="accepte" id="accepte">
-                        <p>J'accepte d'etre recontacté(e) au sujet de ma demande; *</p>
-                    </div>
-                    <button>Envoyer ma demande</button>
-                </div>
-                
-            </form>
         </section>
     </main>
 
     <!--footer-->
+    <footer class="pied-de-page">
+        <div class="conteneur">
+
+            <div class="pied-haut">
+                <H2><img src="img/logo_2.png" id="logo1">PetNet </H2>
+                <p id="disc">Produits, adoption responsable et services pour le bien-être de vos animaux.
+                <p>
+                <div class="media">
+                    <i class="fa-brands fa-instagram" style="color: rgb(242, 246, 245);"></i>
+                    <i class="fa-brands fa-youtube" style="color: rgb(242, 246, 245);"></i>
+                    <i class="fa-solid fa-share-nodes" style="color: rgb(242, 246, 245);"></i>
+                </div>
+
+                <div class="boutique">
+                    <H1>boutique</H1>
+                    <p>chiens</p>
+                    <p>chats</p>
+                    <p>Rongeurs</p>
+                    <p>Oiseaux</p>
+                    <p>poissons</p>
+                </div>
+                <div class="Aide">
+                    <H1>Aide</H1>
+                    <p>FAQ</p>
+                    <p>Livraison</p>
+                    <p>Retours</p>
+                    <p>Conditions generales</p>
+                </div>
+                <div>
+                    <H1>Contact</H1>
+                    <p id="location"> <i class="fa-solid fa-location-crosshairs"
+                            style="color: rgb(13, 148, 136);"></i>12 rue des Lilas, Casablanca</p>
+                    <p id=call><i class="fa-solid fa-phone" style="color: rgb(13, 148, 136);"></i> 05 44 22 88 55</p>
+                    <p id="mail"><i class="fa-solid fa-envelope" style="color: rgb(13, 148, 136);"></i>
+                        bonjour@petnest.ma</p>
+                    <p><i class="fa-solid fa-clock" style="color: rgb(13, 148, 136);"></i> Lun – Sam : 9 h – 19 h</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pied-bas">
+            <p>© 2026 PetNest. Tous droits réservés.</p>
+
+
+        </div>
+
+        </div>
+    </footer>
 
     <script>
         const burger = document.querySelector('.burger');
