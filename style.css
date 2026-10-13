@@ -130,4 +130,13 @@ nav a {
     border-radius: 10px;
     color: white;
 }
+.avis-link {
+  display: inline-block;
+  color: #0D9488; 
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 5px; 
+  border-bottom: 3px solid #0D9488; 
+}
 
