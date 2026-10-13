@@ -1,0 +1,51 @@
+#vue{
+    border-radius: 30px;
+    width: 400px;
+    height: 200px;
+    
+    
+    
+}
+.vue1{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.vue2{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.vue3{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}.vue4{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+}
+.allvue{
+    display:flex ;
+
+    
+}
+.text1{
+    display:flex ;
+
+
+}
+.TTC{
+    bottom: 7;
+}
+#Ajouter{
+    border-style: solid;
+    border-radius: 11px;
+    padding: 10px;
+    margin-left: 100px;
+}
