@@ -77,6 +77,59 @@
             </div>
         </section>
 
+        <section id="demande-adoption">
+            <div class="formInfo">
+                <h5 class="titleForm">FORMULAIRE</h5>
+                <h1>Demande d'adoption</h1>
+                <p>Notre équipe vous recontacte sous 48 h pour organiser une rencontre avec l'animal. Les champs marrqués * sont obligatoires.</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div>
+                        <div class="row">
+                            <div>
+                                <label for="name">Nom complet *</label>
+                                <input type="text" name="name" id="name" placeholder="Ex. Sara Benali" required>
+                            </div>
+                            <div>
+                                <label for="mail">Adress e-mail *</label>
+                                <input type="email" name="mail" id="mail" placeholder="vous@example.com" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <label for="tel">Téléphone *</label>
+                                <input type="tel" name="tel" id="tel" placeholder="Ex. 0612345678" required>
+                            </div>
+                            <div>
+                                <label for="animalCh">Animal choisi *</label>
+                                <select name="animalCh" id="animalCh" required>
+                                    <option value="">op1</option>
+                                    <option value="">op2</option>
+                                    <option value="">op3</option>
+                                    <option value="">op4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <label for="typeLogement">Type de logement *</label>
+                        <select name="typeLogement" id="typeLogement" required>
+                            <option value="">op1</option>
+                            <option value="">op2</option>
+                            <option value="">op3</option>
+                            <option value="">op4</option>
+                        </select>
+                        <label for="message">Votre message *</label>
+                        <textarea name="message" id="message" placeholder="Pariez-nous de votre foyer et de votre rythme de vie..." required></textarea>
+                        <div class="row">
+                            <input type="checkbox" name="accepte" id="accepte">
+                            <p>J'accepte d'etre recontacté(e) au sujet de ma demande; *</p>
+                        </div>
+                        <button class="btn">Envoyer ma demande</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
     </main>
 
     <!--footer-->
