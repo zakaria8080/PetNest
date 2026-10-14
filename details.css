@@ -241,3 +241,47 @@ p{
     margin-top: 10px;
     margin-left: 10px;
 }
+@media (min-width: 1024px) {
+    #vue {
+        width: 576px;         
+        height: 301px;
+        margin-left: 80px;    
+    }
+    .allvue{
+        margin-left: 62px;
+    }
+    .vue1{
+        width: 135px;
+        height: 110px;
+    }
+    .vue2{
+        width: 135px;
+        height: 110px;
+    }
+    .vue3{
+        width: 135px;
+        height: 110px;
+    }
+    .vue4{
+        width: 135px;
+        height: 110px;
+    }
+    #text{
+        margin-left: 700px;
+        position: relative;
+        top: -420px;
+        display: flex;
+    }
+    .deskpartie1{
+        margin-left: 700px;
+        position: relative;
+        top : -400px;
+    }
+    .bod{
+        margin-left: 700px;
+        position: relative;
+        top: -390px;
+        width: 700px;
+    }
+    
+}
