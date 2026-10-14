@@ -7,10 +7,13 @@
     <title>PetNet</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalogue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 
 <body>
     <header class="header">
@@ -42,12 +45,16 @@
 
     </header>
     <div class="banner">
-        <h1>𝗕𝗼𝘂𝘁𝗶𝗾𝘂𝗲 -- 𝗖𝗵𝗶𝗲𝗻𝘀</h1>
-        <p>𝐴𝑙𝑖𝑚𝑒𝑛𝑡𝑎𝑡𝑖𝑜𝑛, 𝑎𝑐𝑐𝑒𝑠𝑠𝑜𝑖𝑟𝑒𝑠, ℎ𝑦𝑔𝑖è𝑛𝑒 𝑒𝑡 𝑗𝑜𝑢𝑒𝑡𝑠 𝑠é𝑙𝑒𝑐𝑡𝑖𝑜𝑛𝑛é𝑠 𝑝𝑎𝑟 𝑛𝑜𝑡𝑟𝑒 é𝑞𝑢𝑖𝑝𝑒.</p>
+        <h1>Boutique — Chiens</h1>
+        <p>Alimentation, accessoires, hygiène et jouets sélectionnés par notre équipe.</p>
     </div>
 
-
+<div class="title">
+    <h2>Animale</h2>
+</div>
     <main>
+
+
         <div class="filter">
 <div class="filter_buttons">
     <button class="active" data-name="touts">touts</button>
@@ -60,38 +67,46 @@
 
 
 </div>
+<div class="filter-container">
+  <p class="product-count" aria-live="polite">6 produits affichés (aria-live)</p>
+  
+  <div class="edit">
+    <label for="animalCh">Trier par</label>
+    <div class="select-wrapper">
+    <select name="boutique" id="boutique" required>
+        <option value="price-asc">Prix croissant</option>
+        <option value="price-desc">Prix décroissant</option>
+        <option value="popularity">Popularité</option>
+        <option value="newest">Nouveautés</option>
+      </select>
+    </div>
+  </div>
+</div>
+
 
 
         <div class="cartes">
+          
 
-          <article class="carte cart_bouti" data-name="chiens">
-            <img src="img/croquettes.png" alt="Croquettes saumon & riz">
-            <div class="">
-              
-              <h3>Os à mâcher naturels</h3>
-              <p class="duree">49.90€</p>
-              <button class="ajoute">Ajouter</button>
-            </div>
-          </article>
+<article class="carte cart-bouti" data-name="chiens">
+  <img src="img/croquettes.png" alt="Croquettes saumon & riz">
+  <div>
+    <h3>Os à mâcher naturels</h3>
+    <p class="duree">49.90€</p>
+    <button class="ajoute">Ajouter</button>
+  </div>
+</article>
 
-          <article class="carte cart-bouti">
-            <img src="img/macher.png" alt="Os à mâcher naturels">
-            <div class="">
-              <h3>Os à mâcher naturels</h3>
-              <p class="duree">8.90€</p>
-              <button class="ajoute">Ajouter</button>
-            </div>
-          </article>
+<article class="carte cart-bouti" data-name="chats">
+  <img src="img/macher.png" alt="Jouet chat">
+  <div>
+    <h3>Arbre à chat</h3>
+    <p class="duree">29.90€</p>
+    <button class="ajoute">Ajouter</button>
+  </div>
+</article>
 
-
-          <article class="carte cart-bouti">
-            <img src="img/harinas.png" alt="Harinas réglable taille M">
-            <div class="">
-              <h3>Harinas réglable taille M</h3>
-              <p class="duree">21.15€</p>
-              <button class="ajoute">Ajouter</button>
-            </div>
-          </article>
+<script src="catalogue.js"></script>
 
 
         </div>

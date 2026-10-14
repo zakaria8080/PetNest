@@ -1,0 +1,107 @@
+/* taha  */
+.banner {
+    background: #CCFBF1;
+    display: flex;
+    flex-direction: column;
+    align-items: 20px ;
+    justify-content: center;
+    text-align: 20px;
+    padding: 25px 12px;
+  ;
+    
+}
+
+.carte {
+  width: 80%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin: 50px;
+}
+
+.carte img {
+    margin: 0px;
+  width: 100%;
+  display: block;
+}
+
+.carte > div {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carte h3 {
+  width: 100%;
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+}
+
+.carte .duree {
+ 
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+.carte .ajoute {
+  background: #0F766E;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+ 
+}
+.filter_buttons{
+align-items: center;
+gap: 15px;
+
+}
+.filter {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    
+    padding: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 4px;
+    font-size: 18px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    gap: 10px;
+}
+.carte.hide {
+    display: none;
+}
+
+.filter_buttons button.active {
+    background-color: #0D9488;
+    color: #ffffff;
+    border: 1px solid #0D9488;
+}
+.title {
+margin-top: 30px;
+margin-left: 20px;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; 
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+.edit {
+    
+}
