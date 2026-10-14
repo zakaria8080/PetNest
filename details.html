@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <header class="header">
         <div class="PetNet-home">
             <img src="img/logo_2.png" alt="PetNet" class="petnet-img">
@@ -42,21 +47,25 @@
     <main>
         <img class="vue" src="img/Screenshot 2026-10-12 145318.png" id="vue">
         <div class="allvue">
-            <img class="vue1" src="img/Screenshot 2026-10-12 145318.png">
-            <img class="vue2" src="img/Screenshot 2026-10-12 145318.png">
-            <img class="vue3" src="img/Screenshot 2026-10-12 145318.png">
-            <img class="vue4" src="img/Screenshot 2026-10-12 145318.png">
+            <img class="vue1" src="img/Screenshot 2026-10-12 145318.png" alt="image">
+            <img class="vue2" src="img/Screenshot 2026-10-12 145318.png" alt="image">
+            <img class="vue3" src="img/Screenshot 2026-10-12 145318.png" alt="image">
+            <img class="vue4" src="img/Screenshot 2026-10-12 145318.png" alt="image">
         </div>
-        <H2 id="text">Croquettes saumon & riz 10 kg</H2>
-        <h3 id="price">49,90 €</h3>
-        <p id="TTC">TTC · soit 4,99 € / kg</p>
-        <p>Recette riche en saumon frais pour chiens adultes de toutes tailles. Sans colorant ni conservateur
+        <h1 id="text" >Croquettes saumon & riz 10 kg</h1>
+        <div class="price">
+            <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;"
+                class="euro">49.99 € </span>
+            <p style="font-family: Brush Script MT; font-size: small;" class="TTC">TTC · soit 4,99 € / kg</p>
+        </div>
+
+        <p style="font-size: medium;" id="partie">Recette riche en saumon frais pour chiens adultes de toutes tailles. Sans colorant ni conservateur
             artificiel.</p>
         <button id="Ajouter">Ajouter au panier</button>
         <div class="bod">
-            <p id="valid1">Livraison offerte dès 49 €</p>
-            <p id="valid2">Retour gratuit sous 30 jours</p>
-            <p id="valid3">Conseils personnalisés en boutique</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(23, 105, 12);"> </i>Livraison offerte dès 49 € </p>
+            <p><i class="fa-solid fa-check" style="color: rgb(23, 105, 12);"></i> Retour gratuit sous 30 jours</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(23, 105, 12);"></i> Conseils personnalisés en boutique</p>
         </div>
         <section class="section">
             <div class="avis-box">Avis (124)</div>
@@ -97,7 +106,7 @@
                     <input type="text" id="input1">
                     <p id="Votre">Votre commentaire *</p>
                     <textarea name="text" id="commentaire" rows="3"></textarea>
-                   <div> <button id="monavis">Publier mon avis</button></div>
+                    <div> <button id="monavis">Publier mon avis</button></div>
 
                 </div>
 
