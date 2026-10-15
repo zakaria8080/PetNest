@@ -8,6 +8,9 @@
 }
 .vue1{
     border-radius: 30px;
+    border-style:solid ;
+    border-color: #0D9488;
+    border-width: 6px;
     width: 80px;
     height: 80px;
     margin: 5px;
@@ -65,7 +68,8 @@
 
 }
 .bod{
-    
+    position: relative;
+    top: -48px;
     width: 350px;
     border-style: solid;
     border-radius: 18px;
@@ -241,6 +245,45 @@ p{
     margin-top: 10px;
     margin-left: 10px;
 }
+.quantity-selector {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background-color: #fff;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top:-70px;
+    height: 40px;
+}
+
+.qty-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    padding: 0 5px;
+}
+
+.qty-btn:hover {
+    color: #0F766E; 
+}
+
+.qty-value {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 20px;
+    text-align: center;
+}
+
+
+
 @media (min-width: 1024px) {
     #vue {
         width: 576px;         
@@ -337,5 +380,11 @@ p{
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
+    .quantity-selector {
+    position: relative;
+    margin-left: 700px;
+    top:-472px;
+    
+}
   
 }
