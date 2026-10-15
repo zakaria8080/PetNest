@@ -1,12 +1,39 @@
 #hero-adoption{
     background-color: #CCFBF1;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+h1{
+    font-family: "Libre Caslon Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h5{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 8px;
+    font-style: normal;
+}
+
+p{
+    font-family: "Libre Caslon Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
 }
 
 .valeurs{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     margin: 8px 10px;
 }
 
@@ -77,6 +104,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+    margin: 5px 0;
 }
 
 #demande-adoption input:not([type="checkbox"]),
@@ -98,7 +126,7 @@
 #demande-adoption .form select,
 #demande-adoption .form textarea {
     width: 100%;
-    margin-bottom: 8px;
+    margin: 5px 5px;
     box-sizing: border-box;
     padding: 9px 10px;
     border: 1px solid #d1d5db;
@@ -136,4 +164,19 @@
 #demande-adoption .form .row p {
     margin: -6px;
     line-height: 1.5;
+}
+
+#demande-adoption .form .invalid {
+    border: 1px solid red !important;
+    border-radius: 5px !important;
+}
+
+#demande-adoption .form .error {
+    color: red;
+    font-size: 8px;
+    line-height: 1.4;
+}
+
+#demande-adoption .form input[type="checkbox"].invalid {
+    outline: 1px solid red;
 }

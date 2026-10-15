@@ -7,8 +7,17 @@
     <link rel="icon" type="image/x-icon" href="img/logo_2.png">
     <title>PetNest | Adoption</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="adoption.css"></head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="adoption.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
 
 <body>
     <!--header-->
@@ -38,32 +47,32 @@
                 </div>
             </div>
         </nav>
-        
+
     </header>
 
     <!--main-->
     <main>
         <section id="hero-adoption">
-            <div>
+            <div class="content">
                 <h1>Adopter,c'est un engagement pour la vie</h1>
                 <p>Tous nos animaux sont vaccinés, identifiés et suivis par un vétérinaire. <br>
                     Notre équipe vous accompagne avant et après l'adoption.</p>
             </div>
             <div>
-            <ul class="valeurs">
-                <li class="valeur">
-                    <span class="info">48</span>
-                    <span>animaux à adopter</span>
-                </li>
-                <li class="valeur">
-                    <span class="info">312</span>
-                    <span>adoptions en 2025</span>
-                </li>
-                <li class="valeur">
-                    <span class="info">100%</span>
-                    <span>vaccinés et identifiés</span>
-                </li>
-            </ul>
+                <ul class="valeurs">
+                    <li class="valeur">
+                        <span class="info">48</span>
+                        <span>animaux à adopter</span>
+                    </li>
+                    <li class="valeur">
+                        <span class="info">312</span>
+                        <span>adoptions en 2025</span>
+                    </li>
+                    <li class="valeur">
+                        <span class="info">100%</span>
+                        <span>vaccinés et identifiés</span>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -71,9 +80,10 @@
             <img src="img/rocky.jpg" alt="puppy">
             <div>
                 <h1>Rocky,4 ans</h1>
-                <h2>Son histoire</h2>
-                <p>Rocky a été confié au refuge après le déménagement de sa famille. Très joueur, il adore les longues balades et apprend vite les ordes de base.</p>
-                <button class="btn">Demander à Adopter Rocky</button>
+                <h5>Son histoire</h2>
+                    <p>Rocky a été confié au refuge après le déménagement de sa famille. Très joueur, il adore les
+                        longues balades et apprend vite les ordes de base.</p>
+                    <button class="btn">Demander à Adopter Rocky</button>
             </div>
         </section>
 
@@ -81,50 +91,59 @@
             <div class="formInfo">
                 <h5 class="titleForm">FORMULAIRE</h5>
                 <h1>Demande d'adoption</h1>
-                <p>Notre équipe vous recontacte sous 48 h pour organiser une rencontre avec l'animal. Les champs marrqués * sont obligatoires.</p>
+                <p>Notre équipe vous recontacte sous 48 h pour organiser une rencontre avec l'animal. Les champs
+                    marrqués * sont obligatoires.</p>
             </div>
             <div class="form">
-                <form action="">
+                <form onsubmit="return validationForm()">
                     <div>
                         <div class="row">
                             <div>
                                 <label for="name">Nom complet *</label>
-                                <input type="text" name="name" id="name" placeholder="Ex. Sara Benali" required>
+                                <input type="text" name="name" id="name" placeholder="Ex. Sara Benali">
+                                <p class="error" id="nameError"></p>
                             </div>
                             <div>
                                 <label for="mail">Adress e-mail *</label>
-                                <input type="email" name="mail" id="mail" placeholder="vous@example.com" required>
+                                <input type="email" name="mail" id="mail" placeholder="vous@example.com">
+                                <p class="error" id="mailError"></p>
                             </div>
                         </div>
                         <div class="row">
                             <div>
                                 <label for="tel">Téléphone *</label>
-                                <input type="tel" name="tel" id="tel" placeholder="Ex. 0612345678" required>
+                                <input type="tel" name="tel" id="tel" placeholder="Ex. 0612345678">
+                                <p class="error" id="telError"></p>
+
                             </div>
                             <div>
                                 <label for="animalCh">Animal choisi *</label>
-                                <select name="animalCh" id="animalCh" required>
-                                    <option value="">op1</option>
-                                    <option value="">op2</option>
-                                    <option value="">op3</option>
-                                    <option value="">op4</option>
+                                <select name="animalCh" id="animalCh">
+                                    <option value="">Choisir un animal</option>
+                                    <option value="Rocky">Rocky</option>
+                                    <option value="Luna">Luna</option>
+                                    <option value="Milo">Milo</option>
+                                    <option value="Luna">Luna</option>
                                 </select>
+                                <p class="error" id="animalChError"></p>
                             </div>
                         </div>
                         <label for="typeLogement">Type de logement *</label>
-                        <select name="typeLogement" id="typeLogement" required>
-                            <option value="">op1</option>
-                            <option value="">op2</option>
-                            <option value="">op3</option>
-                            <option value="">op4</option>
+                        <select name="typeLogement" id="typeLogement">
+                            <option value="Appartement">Appartement</option>
+                            <option value="Maison">Maison</option>
                         </select>
+                        <p class="error" id="typeLogementError"></p>
                         <label for="message">Votre message *</label>
-                        <textarea name="message" id="message" placeholder="Pariez-nous de votre foyer et de votre rythme de vie..." required></textarea>
+                        <textarea name="message" id="message"
+                            placeholder="Pariez-nous de votre foyer et de votre rythme de vie..."></textarea>
+                        <p class="error" id="messageError"></p>
                         <div class="row">
                             <input type="checkbox" name="accepte" id="accepte">
                             <p>J'accepte d'etre recontacté(e) au sujet de ma demande; *</p>
                         </div>
-                        <button class="btn">Envoyer ma demande</button>
+                        <p class="error" id="accepteError"></p>
+                        <button class="btn" type="submit">Envoyer ma demande</button>
                     </div>
                 </form>
             </div>
@@ -183,6 +202,7 @@
     </footer>
 
     <script>
+
         const burger = document.querySelector('.burger');
         const menu = document.querySelector('.ul-nav');
         const button = document.querySelector('.a-nav .button');
@@ -191,6 +211,101 @@
             button.classList.toggle('ouvert');
             burger.classList.toggle('actif');
         });
+
+        let name = document.querySelector('#name');
+        let email = document.querySelector('#mail');
+        let tel = document.querySelector('#tel');
+        let animalCh = document.querySelector('#animalCh');
+        let type = document.querySelector('#typeLogement');
+        let message = document.querySelector('#message');
+        let accepte = document.querySelector('#accepte');
+
+
+        let textVali = document.querySelector('#message');
+
+        function validationForm() {
+            let emailPat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            let telPat = /^(05|06|07)\d{8}$/;
+            let valide = true;
+
+            // Nom
+            let nameError = document.querySelector('#nameError');
+
+            if (name.value.trim() === '') {
+                name.classList.toggle('invalid');
+                nameError.textContent = 'Veuillez saisir votre nom complet.';
+                valide = false;
+            }
+
+            // Email
+            let mailError = document.querySelector('#mailError');
+
+            if (email.value.trim() === '') {
+                email.classList.add('invalid');
+                mailError.textContent = 'Veuillez saisir votre adresse e-mail.';
+                valide = false;
+            } else if (!emailPat.test(email.value.trim())) {
+                email.classList.toggle('invalid');
+                mailError.textContent = 'Veuillez saisir une adresse e-mail valide.';
+                valide = false;
+            }
+
+            // Téléphone
+            let telError = document.querySelector('#telError');
+
+            if (tel.value.trim() === '') {
+                tel.classList.add('invalid');
+                telError.textContent = 'Veuillez saisir votre téléphone.';
+                valide = false;
+            } else if (!telPat.test(tel.value.trim())) {
+                tel.classList.toggle('invalid');
+                telError.textContent = 'Numéro invalide. Exemple : 0612345678.';
+                valide = false;
+            }
+
+            // Animal choisi
+            let animalError = document.querySelector('#animalChError');
+
+            if (animalCh.value === '') {
+                animalCh.classList.toggle('invalid');
+                animalError.textContent = 'Veuillez choisir un animal.';
+                valide = false;
+            }
+
+            // Type de logement
+            let typeError = document.querySelector('#typeLogementError');
+
+            if (type.value === '') {
+                type.classList.toggle('invalid');
+                typeError.textContent = 'Veuillez choisir votre type de logement.';
+                valide = false;
+            }
+
+            // Message
+            let messageError = document.querySelector('#messageError');
+
+            if (message.value.trim() === '') {
+                message.classList.toggle('invalid');
+                messageError.textContent = 'Veuillez écrire votre message.';
+                valide = false;
+            }
+
+            // Checkbox
+            let accepteError = document.querySelector('#accepteError');
+
+            if (!accepte.checked) {
+                accepte.classList.toggle('invalid');
+                accepteError.textContent = "Veuillez accepter d'être recontacté(e).";
+                valide = false;
+            }
+
+            if (valide) {
+                alert('Votre demande est valide !');
+                return true;
+            }
+            return false;
+        }
+
     </script>
 </body>
 
