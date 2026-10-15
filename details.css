@@ -108,7 +108,7 @@
 .section{
     margin-top: 30px;
     background-color: #E7E5E4;
-    border-radius: 20px;
+    
 }
 .addcommit{ 
         margin-top: 10px;
@@ -283,5 +283,59 @@ p{
         top: -390px;
         width: 700px;
     }
-    
+    .pied-de-page {
+        margin-top: 0px !important;
+        position: relative;
+        clear: both;
+     
+    }
+
+    .pied-haut {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .section{
+        margin-top: -200px !important; 
+        position: relative;
+        z-index: 2;
+      
+    }
+
+    .addcommit{
+        margin-left: 800px;
+        position: relative;
+        top: -250px;
+        width: 600px;
+    }
+    #input1{
+        width: 400px;
+        height: 34px;
+    }
+    #commentaire{
+        width: 400px;
+        height: 100px;
+
+    }
+    .monavis{
+        width: 100px;
+    }
+    .commit1{
+        width: 700px;
+        height: 70px;
+        align-items: center;
+    }
+    .commit2{
+        width: 700px;
+        height: 70px;
+        align-items: center;
+    }
+    main {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+  
 }
