@@ -34,18 +34,21 @@ header {
     position: relative;
     bottom: 13px;
 }
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     z-index: 1000;
 }
+
 .ul-nav {
     list-style: none;
     display: flex;
     gap: 22px;
     padding: 10px 0;
 }
+
 nav a {
     text-decoration: none;
     display: inline-block;
@@ -53,11 +56,13 @@ nav a {
     padding-bottom: 4px;
     color: black;
 }
+
 .ul-nav .active-link {
     color: #0D9488;
     font-weight: 600;
     border-bottom-color: #0D9488;
 }
+
 /* JAWAD  */
 .pied-de-page {
 
@@ -70,10 +75,12 @@ nav a {
     padding: 50px 20px 20px 20px;
 
 }
+
 .conteneur {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .media i {
     background-color: rgb(42, 39, 39);
     width: 40px;
@@ -99,9 +106,11 @@ nav a {
 #disc {
     font-size: small;
 }
+
 #logo1 {
     width: 40px;
 }
+
 p {
     padding: 5px;
 }
@@ -110,7 +119,27 @@ p {
     display: none;
 }
 
+.a-nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
 @media (max-width: 768px) {
+
+    /* petit edit by zakaria */
+    header {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .burger {
+        order: 3;
+        margin-left: auto;
+    }
+
     /* edit by hafsa */
     .burger span {
         display: block;

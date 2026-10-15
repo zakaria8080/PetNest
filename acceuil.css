@@ -192,13 +192,12 @@ main {
         text-align: center;
     }
 
-    main {
+    .main {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         background-color: #CCFBF1;
         padding: 50px;
-        gap: 20px;
+        gap: 50px;
     }
 
     .button-main {
@@ -207,6 +206,11 @@ main {
         gap: 15px;
         justify-content: center;
         align-items: center;
+        margin-top: 15px;
+    }
+    .button-main a{
+        width: 100%;
+        text-align: center;
     }
 
     .imges img {
