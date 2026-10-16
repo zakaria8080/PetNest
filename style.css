@@ -105,6 +105,7 @@ nav a {
 
 #disc {
     font-size: small;
+    margin-top: 10px;
 }
 
 #logo1 {
@@ -123,6 +124,10 @@ p {
     display: flex;
     align-items: center;
     gap: 22px;
+}
+#disc{
+    display: flex;
+    flex-direction: column;
 }
 
 .button-a {
