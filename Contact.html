@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Service</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style1.css">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -24,8 +24,8 @@
           <li><a href="index.html">Acceuil</a></li>
           <li><a href="catalogue.html">Boutique</a></li>
           <li><a href="details.html">Adoption</a></li>
-          <li><a href="serviceContact.html" class="active-link">Services</a></li>
-          <li><a href="serviceContact.html">Contact</a></li>
+          <li><a href="Service.html">Services</a></li>
+          <li><a href="Contact.html" class="active-link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -33,11 +33,74 @@
       <a class="button-a">Prendre RDV</a>
     </div>
   </header>
-  <main>
-    <section class="px-[7%] py-[3%] bg-sky-100">
-      <h1 class="text-sky-400 text-xs mb-3">SERVICES ET CONTACT</h1>
-      <h2 class="text-4xl font-bold mb-3">Des soins sur mesure pour votre compagnon</h2>
-      <p class="">Toilettage, pension et conseil : réservez un créneau ou posez-nous vos questions.</p>
+  <main class="contact">
+    <section>
+      <h1>Prendre rendez-vous</h1>
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nom">Nom complet *</label>
+            <input type="text" id="nom" name="nom" placeholder="Ex. Sara Benali" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse e-mail *</label>
+            <input type="email" id="email" name="email" placeholder="vous@exemple.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="service">Service *</label>
+            <select id="service" name="service" required>
+              <option value="">Choisir un service</option>
+              <option value="Toilettage">Toilettage</option>
+              <option value="Veterinaire">Consultation</option>
+              <option value="Pension">Pension</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Date souhaitée *</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" placeholder="Race, taille et besoins particuliers de votre animal..."
+            required></textarea>
+        </div>
+        <button type="submit">
+          Envoyer la demande
+        </button>
+      </form>
+    </section>
+    <aside>
+      <div class="info">
+        <h2>La boutique</h2>
+        <p>12 rue des Lilas, Casablanca</p>
+        <p>05 22 00 00 00</p>
+        <p>bonjour@petnest.ma</p>
+        <p>Lundi - samedi : 9 h - 19 h</p>
+      </div>
+      <iframe class="map"
+       <!--f-->/iframe> src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.704375360696!2d-9.23778852442978!3d32.292925173869634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1792119571438!5m2!1sfr!2sma"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+
+        <div class="social">
+          <h2>Suivez-nous</h2>
+
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            Instagram
+          </a>
+
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            YouTube
+          </a>
+        </div>
+    </aside>
+
   </main>
   <footer>
     <div class="conteneur">
@@ -75,10 +138,10 @@
         <div class="Aide">
           <h3>Aide</h3>
           <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Livraison</a></li>
-            <li><a href="#">Retours</a></li>
-            <li><a href="#">Conditions générales</a></li>
+            <li>FAQ</li>
+            <li>Livraison</li>
+            <li>Retours</li>
+            <li>Conditions générales</li>
           </ul>
         </div>
 

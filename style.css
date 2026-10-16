@@ -1,148 +1,62 @@
-footer {
-  background-color: #121212;
-  color: #f1f1f1;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 50px 20px 20px;
-  line-height: 1.6;
+details {
+  background-color: white;
+  padding: 25px;
+  margin: 10px;
+  border: solid 1px rgb(215, 215, 215);
+  border-radius: 10px;
 }
 
-footer .conteneur {
-  max-width: 1200px;
-  margin: 0 auto;
+details[open] {
+  background-color: rgb(230, 254, 254);
 }
 
-footer .pied-haut {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  gap: 30px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #2a2a2a;
+details[open] p {
+  color: rgb(81, 81, 81);
 }
 
-@media (max-width: 900px) {
-  footer .pied-haut {
-    grid-template-columns: 1fr 1fr;
-  }
+summary {
+  font-size: larger;
 }
 
-@media (max-width: 600px) {
-  footer .pied-haut {
+article {
+  display: flex;
+  justify-content: space-around;
+  padding: 45px;
+  background-color: rgb(241, 241, 241);
+}
+
+@media (max-width: 768px) {
+  .contact {
     grid-template-columns: 1fr;
+    margin: 25px auto;
+    padding: 18px;
+    gap: 30px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .map {
+    height: 220px;
+  }
+
+  button {
+    width: 100%;
   }
 }
-
-footer .logo {
+.contact{
   display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.5rem;
-  color: #ffffff;
-  margin-bottom: 15px;
+  padding: 45px;
 }
-
-footer .logofoter {
-  width: 35px;
-  height: 35px;
-  object-fit: contain;
-}
-
-footer .colonne-marque p {
-  color: #b0b0b0;
-  font-size: 0.95rem;
-  margin-bottom: 20px;
-}
-
-footer .reseaux-sociaux {
+section{
   display: flex;
-  gap: 15px;
-}
-
-footer .reseaux-sociaux-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  background-color: #1e1e1e;
-  color: #ffffff;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-  background-color: white;    
-}
-
-footer .reseaux-sociaux a:hover {
-  background-color: #ff6b00;
-}
-
-footer h3 {
-  color: #ffffff;
-  font-style: normal;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  letter-spacing: 0.5px;
-}
-
-/* Listes de liens */
-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer ul li {
-  margin-bottom: 10px;
-}
-
-footer ul li a {
-  color: #b0b0b0;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-footer ul li a:hover {
-  color: #ff6b00;
-}
-
-/* Bloc Contact */
-footer .contact ul li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  color: #b0b0b0;
-  margin-bottom: 15px;
-}
-
-footer .contact i {
-  color: #ff6b00;
-  font-size: 1.1rem;
-  margin-top: 3px;
-}
-/* Style et taille pour les icônes images du contact */
-footer .contact-icon {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-  margin-top: 3px; /* Aligne l'icône verticalement avec le texte */
-}
-
-/* Partie basse du footer (Copyright et mentions) */
-footer .pied-bas {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 25px;
-  color: #888888;
-  font-size: 0.85rem;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-footer .pied-bas a {
-  color: #888888;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-footer .pied-bas a:hover {
-  color: #ffffff;
+  justify-content: space-around;
+  padding: 45px;
+  background-color: rgb(241, 241, 241);
 }
