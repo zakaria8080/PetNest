@@ -24,3 +24,11 @@ article {
   padding: 45px;
   background-color: rgb(241, 241, 241);
 }
+
+@media (max-width: 900px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
