@@ -347,7 +347,7 @@ p{
         margin-left: 700px;
         position: relative;
         top: -390px;
-        width: 700px;
+        width: 500px;
     }
     .pied-de-page {
         margin-top: 0px !important;
@@ -379,14 +379,14 @@ p{
         margin-left: 800px;
         position: relative;
         top: -250px;
-        width: 600px;
+        width: 400px;
     }
     #input1{
-        width: 400px;
+        width: 300px;
         height: 34px;
     }
     #commentaire{
-        width: 400px;
+        width: 300px;
         height: 100px;
 
     }
