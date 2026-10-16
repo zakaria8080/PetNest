@@ -1,3 +1,4 @@
+// js code
 const filterButtons = document.querySelectorAll(".filter_buttons button");
 const cards = document.querySelectorAll(".carte");
 
