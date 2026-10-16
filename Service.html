@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Service</title>
-  <link rel="stylesheet" href="serviceContact.css">
+  <title>Service .</title>
+  <link rel="stylesheet" href="service.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -34,11 +34,11 @@
     </div>
   </header>
   <main>
-    <section class="px-[9%] py-[3%] bg-sky-100">
+    <div class="px-[9%] py-[3%] bg-sky-100">
       <h1 class="text-sky-400 text-xs mb-3">SERVICES ET CONTACT</h1>
       <h2 class="text-4xl font-bold mb-3">Des soins sur mesure pour votre compagnon</h2>
       <p class="">Toilettage, pension et conseil : réservez un créneau ou posez-nous vos questions.</p>
-    </section>
+    </div>
     <article>
       <div class="fqa">
         <h3 class="text-sky-400 text-1xl light mb-3">FAQ</h3>
@@ -77,49 +77,79 @@
       </div>
     </article>
   </main>
-  <footer class="pied-de-page">
+  <footer>
     <div class="conteneur">
 
+      <!-- Partie supérieure du footer -->
       <div class="pied-haut">
-        <H2><img src="img/logo_2.png" id="logo1">PetNet </H2>
-        <p id="disc">Produits, adoption responsable et services pour le bien-être de vos animaux.
-        <p>
-        <div class="media">
-          <i class="fa-brands fa-instagram" style="color: rgb(242, 246, 245);"></i>
-          <i class="fa-brands fa-youtube" style="color: rgb(242, 246, 245);"></i>
-          <i class="fa-solid fa-share-nodes" style="color: rgb(242, 246, 245);"></i>
+
+        <!-- Bloc Marque / Présentation -->
+        <div class="colonne-marque">
+          <h1 class="logo logo-clair">
+            <img src="img/logo_2.png" alt="PetNest Logo" class="logofoter">
+            PetNest
+          </h1>
+          <p>Produits, adoption responsable et services pour le bien-être de vos animaux.</p>
+          <div class="reseaux-sociaux-icons">
+            <img src="img/instagram.png" alt="Instagram" class="reseaux-sociaux-icons">
+            <img src="img/youtube.png" alt="YouTube" class="reseaux-sociaux-icons">
+            <img src="img/share.png" alt="Share" class="reseaux-sociaux-icons">
+          </div>
         </div>
 
+        <!-- Bloc Boutique -->
         <div class="boutique">
-          <H1>boutique</H1>
-          <p>chiens</p>
-          <p>chats</p>
-          <p>Rongeurs</p>
-          <p>Oiseaux</p>
-          <p>poissons</p>
+          <h3>Boutique</h3>
+          <ul>
+            <li><a href="#">Chiens</a></li>
+            <li><a href="#">Chats</a></li>
+            <li><a href="#">Rongeurs</a></li>
+            <li><a href="#">Oiseaux</a></li>
+            <li><a href="#">Poissons</a></li>
+          </ul>
         </div>
-        <div class="Aide">
-          <H1>Aide</H1>
-          <p>FAQ</p>
-          <p>Livraison</p>
-          <p>Retours</p>
-          <p>Conditions generales</p>
-        </div>
-        <div>
-          <H1>Contact</H1>
-          <p id="location"> <i class="fa-solid fa-location-crosshairs" style="color: rgb(13, 148, 136);"></i>12 rue des
-            Lilas, Casablanca</p>
-          <p id=call><i class="fa-solid fa-phone" style="color: rgb(13, 148, 136);"></i> 05 44 22 88 55</p>
-          <p id="mail"><i class="fa-solid fa-envelope" style="color: rgb(13, 148, 136);"></i>
-            bonjour@petnest.ma</p>
-          <p><i class="fa-solid fa-clock" style="color: rgb(13, 148, 136);"></i> Lun – Sam : 9 h – 19 h</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="pied-bas">
-      <p>© 2026 PetNest. Tous droits réservés.</p>
-    </div>
+        <!-- Bloc Aide -->
+        <div class="Aide">
+          <h3>Aide</h3>
+          <ul>
+            <li>FAQ</li>
+            <li>Livraison</li>
+            <li>Retours</li>
+            <li>Conditions générales</li>
+          </ul>
+        </div>
+
+        <!-- Bloc Contact -->
+        <div class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <img src="img/placeholder.png" alt="Location Icon" class="contact-icon">
+              <span id="location">12 rue des Lilas, Casablanca</span>
+            </li>
+            <li>
+              <img src="img/phone-call.png" alt="Phone Icon" class="contact-icon">
+              <span id="call">05 22 00 00 00</span>
+            </li>
+            <li>
+              <img src="img/email.png" alt="Mail Icon" class="contact-icon">
+              <span id="mail">bonjour@petnest.ma</span>
+            </li>
+            <li>
+              <img src="img/clock.png" alt="Clock Icon" class="contact-icon">
+              <span>Lun – Sam : 9 h – 19 h</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Partie inférieure du footer -->
+      <div class="pied-bas">
+        <p>© 2026 PetNest. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a> · <a href="#">Confidentialité</a></p>
+      </div>
 
     </div>
   </footer>

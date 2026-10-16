@@ -25,6 +25,3 @@ article {
   background-color: rgb(241, 241, 241);
 }
 
-@media (max-width: 768px) {
-  display: flex;
-}
