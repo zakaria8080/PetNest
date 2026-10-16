@@ -285,9 +285,6 @@ p{
 
 
 @media (min-width: 1024px) {
-    *{
-        box-sizing: border-box;
-    }
     #vue {
         width: 576px;         
         height: 301px;
@@ -327,7 +324,7 @@ p{
         margin-left: 700px;
         position: relative;
         top: -390px;
-        width: 500px;
+        width: 700px;
     }
     .pied-de-page {
         margin-top: 0px !important;
