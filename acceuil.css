@@ -65,9 +65,11 @@ main {
 .div-product .img-product {
     height: 40vh;
 }
-.div-product .second-img{
-    height : 55vh;
+
+.div-product .second-img {
+    height: 55vh;
 }
+
 .img-product {
     position: relative;
     z-index: 1;
@@ -208,7 +210,8 @@ main {
         align-items: center;
         margin-top: 15px;
     }
-    .button-main a{
+
+    .button-main a {
         width: 100%;
         text-align: center;
     }

@@ -1,14 +1,15 @@
-#vue{
+#vue {
     border-radius: 30px;
     width: 350px;
     height: 200px;
     margin-left: 20px;
-    
-    
+
+
 }
-.vue1{
+
+.vue1 {
     border-radius: 30px;
-    border-style:solid ;
+    border-style: solid;
     border-color: #0D9488;
     border-width: 6px;
     width: 80px;
@@ -16,58 +17,68 @@
     margin: 5px;
     margin-left: 20px;
 }
-.vue2{
-        border-radius: 30px;
-    width: 80px;
-    height: 80px;
-    margin: 5px;
 
-}
-.vue3{
-    border-radius: 30px;
-    width: 80px;
-    height: 80px;
-    margin: 5px;
-}.vue4{
+.vue2 {
     border-radius: 30px;
     width: 80px;
     height: 80px;
     margin: 5px;
 
 }
-.allvue{
-    display:flex ;
 
-    
+.vue3 {
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
 }
-.text1{
-    display:flex ;
+
+.vue4 {
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+}
+
+.allvue {
+    display: flex;
 
 
 }
-.TTC{
+
+.text1 {
+    display: flex;
+
+
+}
+
+.TTC {
     bottom: 7;
 }
-#Ajouter{
-    
+
+#Ajouter {
+
     margin-top: 20px;
     margin-bottom: 20px;
     border-style: solid;
     border-radius: 11px;
     padding: 10px;
     margin-left: 120px;
-    background-color:#0F766E;
+    background-color: #0F766E;
     border-color: #0F766E;
     color: #FFFFFF;
     width: 250px;
-   
+
 }
-#text{
-    font-family: Bold ;
+
+#text {
+    font-family: Bold;
 
 
 }
-.bod{
+
+.bod {
     position: relative;
     top: -48px;
     width: 350px;
@@ -79,10 +90,11 @@
     padding-bottom: 10px;
     background-color: #F5F5F4;
     border-color: #F5F5F4;
-    
-    
+
+
 }
-.commit1{
+
+.commit1 {
     margin-top: 10px;
     margin-left: 10px;
     width: 350px;
@@ -96,7 +108,8 @@
     margin-left: 15px;
 
 }
-.commit2{
+
+.commit2 {
     margin-top: 10px;
     width: 350px;
     padding-top: 10px;
@@ -109,13 +122,14 @@
     margin-left: 15px;
 }
 
-.section{
+.section {
     margin-top: 30px;
     background-color: #E7E5E4;
-    
+
 }
-.addcommit{ 
-        margin-top: 10px;
+
+.addcommit {
+    margin-top: 10px;
     margin-left: 10px;
     width: 350px;
     padding-top: 10px;
@@ -128,23 +142,26 @@
     margin-left: 15px;
 
 }
-#input1{
-    border-style:solid ;
+
+#input1 {
+    border-style: solid;
     border-radius: 8px;
-    border-color:black ;
+    border-color: black;
     width: 250px;
     height: 30px;
     margin-left: 10px;
 }
-#commentaire{
-    border-radius:solid ;
+
+#commentaire {
+    border-radius: solid;
     border-radius: 6px;
     border-color: black;
     width: 250px;
     height: 100px;
     margin-left: 10px;
 }
-#monavis{
+
+#monavis {
     margin-top: 10px;
     width: 250px;
     height: 48px;
@@ -155,11 +172,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 15px;
 }
-#TTC{
+
+#TTC {
     font-size: 10px;
     margin-left: 60px;
 
 }
+
 button {
     background-color: #0D9488;
     display: flex;
@@ -170,27 +189,29 @@ button {
     border-radius: 10px;
     color: white;
 }
+
 .avis-box {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  position: relative;
-  display: inline-block;
-  color: #0D9488;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding-bottom: 8px;
-  margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    color: #0D9488;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-left: 10px;
 }
 
 .avis-box::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;       
-  height: 3px;       
-  background-color: #0D9488; 
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #0D9488;
 }
+
 .star {
     font-size: 1.5rem;
     font-weight: bold;
@@ -207,44 +228,49 @@ button {
     font-size: 1.8rem;
     font-weight: 700;
 }
-#titre{
+
+#titre {
     margin-bottom: 10px;
 }
 
-#Votre{
+#Votre {
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 
 }
-h1{
+
+h1 {
     font-family: "Libre Caslon Condensed", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-h5{
+h5 {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-  font-weight: 8px;
-  font-style: normal;
+    font-weight: 8px;
+    font-style: normal;
 }
 
-p{
+p {
     font-family: "Libre Caslon Condensed", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-.price{
+
+.price {
     display: flex;
-    align-items: baseline; 
+    align-items: baseline;
     margin-left: 10px;
     gap: 10px;
 }
-#partie{
+
+#partie {
     margin-top: 10px;
     margin-left: 10px;
 }
+
 .quantity-selector {
     display: inline-flex;
     align-items: center;
@@ -256,7 +282,7 @@ p{
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
-    top:-70px;
+    top: -70px;
     height: 40px;
 }
 
@@ -271,7 +297,7 @@ p{
 }
 
 .qty-btn:hover {
-    color: #0F766E; 
+    color: #0F766E;
 }
 
 .qty-value {
@@ -281,6 +307,7 @@ p{
     min-width: 20px;
     text-align: center;
 }
+
 .burger span {
     display: block;
     width: 100%;
@@ -304,53 +331,63 @@ p{
     border: none;
     cursor: pointer
 }
+
 @media (min-width: 1024px) {
     #vue {
-        width: 576px;         
+        width: 576px;
         height: 301px;
-        margin-left: 80px;    
+        margin-left: 80px;
     }
-    .allvue{
+
+    .allvue {
         margin-left: 62px;
     }
-    .vue1{
+
+    .vue1 {
         width: 135px;
         height: 110px;
     }
-    .vue2{
+
+    .vue2 {
         width: 135px;
         height: 110px;
     }
-    .vue3{
+
+    .vue3 {
         width: 135px;
         height: 110px;
     }
-    .vue4{
+
+    .vue4 {
         width: 135px;
         height: 110px;
     }
-    #text{
+
+    #text {
         margin-left: 700px;
         position: relative;
         top: -420px;
         display: flex;
     }
-    .deskpartie1{
+
+    .deskpartie1 {
         margin-left: 700px;
         position: relative;
-        top : -400px;
+        top: -400px;
     }
-    .bod{
+
+    .bod {
         margin-left: 700px;
         position: relative;
         top: -390px;
         width: 500px;
     }
+
     .pied-de-page {
         margin-top: 0px !important;
         position: relative;
         clear: both;
-     
+
     }
 
     .pied-haut {
@@ -361,62 +398,72 @@ p{
         margin: 0 auto;
         text-align: left;
     }
-    .disc{
+
+    .disc {
         margin-left: 500px;
         margin-top: -20px;
     }
-    .section{
-        margin-top: -200px !important; 
+
+    .section {
+        margin-top: -200px !important;
         position: relative;
         z-index: 2;
-      
+
     }
 
-    .addcommit{
+    .addcommit {
         margin-left: 800px;
         position: relative;
         top: -250px;
         width: 400px;
     }
-    #input1{
+
+    #input1 {
         width: 300px;
         height: 34px;
     }
-    #commentaire{
+
+    #commentaire {
         width: 300px;
         height: 100px;
 
     }
-    .monavis{
+
+    .monavis {
         width: 100px;
     }
-    .commit1{
+
+    .commit1 {
         width: 700px;
         height: 70px;
         align-items: center;
     }
-    .commit2{
+
+    .commit2 {
         width: 700px;
         height: 70px;
         align-items: center;
     }
+
     main {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
-    #disc{
-      
-    }
+
+    #disc {}
+
     .quantity-selector {
-    position: relative;
-    margin-left: 700px;
-    top:-472px;
-    
-}
-  .burger {
-        display: none !important; 
+        position: relative;
+        margin-left: 700px;
+        top: -472px;
+
     }
-   .button-a{
+
+    .burger {
+        display: none !important;
+    }
+
+    .button-a {
         background: #0D9488;
         color: #fff;
         padding: 10px 20px;
@@ -427,46 +474,48 @@ p{
         text-decoration: none;
         display: inline-block;
         margin-right: 100px;
-    
-   }
-     .nav {
-    position: static;
-    width: auto;
-  }
 
-  .a-nav {
-    flex-direction: row;
-    align-items: center;
-    background: transparent;
-  }
+    }
 
-  .nav .ul-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 32px;
-    padding: 0;
-    margin-right: 250px;
-  }
+    .nav {
+        position: static;
+        width: auto;
+    }
 
-  .nav .ul-nav a {
-    padding: 4px 0;
-    font-size: 0.95rem;
-    font-weight: 500;
-  }
+    .a-nav {
+        flex-direction: row;
+        align-items: center;
+        background: transparent;
+    }
 
-  .nav .button {
-    display: flex;
-    margin-left: 32px;
-    padding: 0;
-    background: transparent;
-  }
-  .fotter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-left: -220px;
-  }
- 
+    .nav .ul-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+        padding: 0;
+        margin-right: 250px;
+    }
+
+    .nav .ul-nav a {
+        padding: 4px 0;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+    .nav .button {
+        display: flex;
+        margin-left: 32px;
+        padding: 0;
+        background: transparent;
+    }
+
+    .fotter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-left: -220px;
+    }
+
 }
