@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/PetNest-services/PetNest-services/img"
+		},
+		{
+			"path": "../../Downloads/PetNest-services/PetNest-services/.vscode"
+		},
+		{
+			"path": "../../Downloads/PetNest-services/PetNest-services/PetNest"
+		},
+		{
+			"path": "../../Downloads/PetNest-services/PetNest-services/node_modules"
+		},
+		{
+			"path": "../../Downloads/PetNest-services"
+		},
+		{
+			"path": "../../Downloads/img"
+		}
+	],
+	"settings": {}
+}
