@@ -4,28 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>détails du produit</title>
-    <link rel="stylesheet" href="details.css">
+    <title>PetNet</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="details.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap"
-        rel="stylesheet"> 
-</head>
-
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 
 <body>
     <header class="header">
         <div class="PetNet-home">
             <img src="img/logo.png" alt="PetNet" class="petnet-img">
+            <a href="#acceuil" class="link-PetNet">
                 PetNet
             </a>
         </div>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <nav class="nav">
             <div class="a-nav">
                 <ul class="ul-nav">
@@ -35,13 +37,13 @@
                     <li><a href="serviceContact.html">Services</a></li>
                     <li><a href="serviceContact.html">Contact</a></li>
                 </ul>
+                <div class="button">
+                    <a class="button-a">Prendre RDV</a>
+                </div>
             </div>
         </nav>
-        <div class="button">
-            <a class="button-a">Prendre RDV</a>
-        </div>
-    </header>
 
+    </header>
     <main>
         <img class="vue" src="img/cat pfp redbull.jpg" id="vue">
         <div class="allvue">
@@ -123,6 +125,7 @@
     <footer class="pied-de-page">
         <div class="conteneur">
             <div class="pied-haut">
+                <div class="fotter">
                 <h2><img src="img/logo.png" id="logo1">PetNet </h2>
                 <p id="disc">Produits, adoption responsable et services pour le bien-être de vos animaux.</p>
                 <div class="media">
@@ -130,6 +133,8 @@
                     <i class="fa-brands fa-youtube" style="color: rgb(242, 246, 245);"></i>
                     <i class="fa-solid fa-share-nodes" style="color: rgb(242, 246, 245);"></i>
                 </div>
+                </div>
+
 
                 <div class="boutique">
                     <h1>boutique</h1>
@@ -162,6 +167,16 @@
             <p>© 2026 PetNest. Tous droits réservés.</p>
         </div>
     </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const menu = document.querySelector('.ul-nav');
+        const button = document.querySelector('.a-nav .button');
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('ouvert');
+            button.classList.toggle('ouvert');
+            burger.classList.toggle('actif');
+        });
+    </script>
 </body>
 
 </html>
