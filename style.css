@@ -130,6 +130,61 @@ p {
     flex-direction: column;
 }
 
+.button-a {
+    background: #0D9488;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.nav {
+    position: static;
+    width: auto;
+}
+
+.a-nav {
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+}
+
+.nav .ul-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+    margin-right: 250px;
+}
+
+.nav .ul-nav a {
+    padding: 4px 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.nav .button {
+    display: flex;
+    margin-left: 32px;
+    padding: 0;
+    background: transparent;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: -220px;
+}
+
 
 @media (max-width: 768px) {
 
